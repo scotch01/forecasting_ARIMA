@@ -201,6 +201,8 @@ if uploaded_file:
         'Tanggal': pd.date_range(df.index[-1], periods=steps + 1, freq='MS')[1:],
         'Future Forecast': future_forecast
     })
+    st.write("Tabel hasil peramalan masa depan:")
+    st.write(df_future.reset_index(drop=True))
 
     # 20. Visualisasi hasil peramalan masa depan
     fig = go.Figure()
@@ -220,8 +222,6 @@ if uploaded_file:
     )
     # Menampilkan plot dan tabel hasil peramalan
     st.plotly_chart(fig)
-    st.write("Tabel hasil peramalan masa depan:")
-    st.write(df_future.reset_index(drop=True))
 
 
 # else:
