@@ -1,0 +1,2 @@
+# Forecasting-ARIMA
+### Selamat datang! Sebuah aplikasi prediksi yang intuitif dan kuat yang dirancang untuk menyederhanakan proses membangun dan mengevaluasi model pembelajaran mesin. Sistem Prediksi ini menggunakan Metode ARIMA, sistem ini diharapkan dapat menjadi landasan bagi pihak terkait dalam merencanakan langkah selanjutnya dalam penyajian ataupun perilisan berita.
